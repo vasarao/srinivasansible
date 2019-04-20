@@ -1,3 +1,4 @@
+[ubuntuhosts]
 172.31.13.150
 
 [all:vars]
