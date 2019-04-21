@@ -11,8 +11,8 @@
   - name: start the service
     service:
      name: "{{webserveronubuntu}}"
-    started: started
-    when: ansible_os_family== "Debian"
+     state: started
+     when: ansible_os_family== "Debian"
 
   - name: install webserver(httpd) on redhat7
     yum:
