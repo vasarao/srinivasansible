@@ -1,5 +1,13 @@
 [ubuntuhosts]
 172.31.13.150
 
+[redhathosts]
+172.31.45.127
+
+[webservers]
+172.31.13.150
+172.31.45.127
+
+
 [all:vars]
 ansible_python_interpreter=/usr/bin/python3
