@@ -3,5 +3,3 @@ webserveronredhat: httpd
 
 javaonubuntu: openjdk-8-jre
 javaonredhat: java-1.6.0-openjdk
-
-mycomname: wiproravi
