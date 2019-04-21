@@ -1,5 +1,6 @@
 ---
 - hosts: all
+  become: yes
   tasks: 
   - name: install java6 on ubuntu14
     apt:
@@ -12,4 +13,4 @@
      name: openjdk-8-jre
      state: present
     when: ansible_os_family = ="RedHat"
-     
+    
