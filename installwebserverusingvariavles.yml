@@ -9,7 +9,7 @@
     when: ansible_os_family== "Debian"
 
   - name: start the service
-    service: 
+    service:
      name: "{{webserveronubuntu}}"
     started: started
     when: ansible_os_family== "Debian"
@@ -27,4 +27,3 @@
      state: started
     when: ansible_os_family== "RedHat"
 
-    
