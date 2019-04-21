@@ -3,9 +3,10 @@
   become: yes
   tasks:
   - include_tasks: myfile.yml
+
   - name: i want to webserver on ubuntu
     apt: 
-     name: pache2
+     name: apache2
      state: present
     notify: startwebserver
 
@@ -14,6 +15,7 @@
       src: index.j2
       dest: /var/www/html/index.html
     notify: startwebserver
+
   handlers: 
   - name: startwebserver
     service: 
