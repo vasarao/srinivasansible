@@ -19,7 +19,7 @@
     - tomcat-webapps
     - tomcat-admin-webapps
 
-- name: coy tom user file into all nodes
+- name: copy tom user file into all nodes
   template:
     src: templates/mytomuser.j2
     dest: /usr/share/tomcat/conf/tomcat-users.xml
