@@ -2,7 +2,7 @@
 # tasks file for mytominstall
 - name: install tomcat
   yum:
-   name: tomacat
+   name: tomcat
    state: present
 
 - name:  copy tom config file into all nodes
