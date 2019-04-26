@@ -2,5 +2,8 @@
 172.31.27.218
 172.31.24.95
 
+[all:vars]
+ansible_python_interpreter=/usr/bin/python3
+
 
 
