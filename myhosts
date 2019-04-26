@@ -4,7 +4,7 @@
 172.31.30.54
 
 
-[ubuntu:vars]
+[all:vars]
 ansible_python_interpreter=/usr/bin/python3
 
 
