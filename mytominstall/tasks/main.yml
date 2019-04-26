@@ -27,6 +27,6 @@
 
 - name: i want to deploy ravi java war file into webapps 
   get_url:
-    url: http://54.254.200.130:8081/artifactory/webapp/#/artifacts/browse/tree/General/libs-release
+    url: http://54.254.200.130:8081/artifactory/mynagasrinukit/6/target/mahaLogin-1.0.war
     dest: /usr/share/tomcat/webapps/mahaLogin-1.0.war
     force_basic_auth: yes
