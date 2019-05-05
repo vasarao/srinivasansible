@@ -1,5 +1,5 @@
 ---
-- hosts: all
+- hosts: webserver
   become: yes
   vars: 
     myvar1: ramesh
