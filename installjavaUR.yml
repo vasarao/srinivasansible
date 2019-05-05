@@ -2,7 +2,7 @@
 - hosts: all
   become: yes
   tasks: 
-  - name: install java6 on ubuntu14
+  - name: install java8 on ubuntu14
     apt:
      name: openjdk-8-jre
      state: present
