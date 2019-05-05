@@ -2,6 +2,7 @@
 - hosts: ubuntuhosts
   become: yes
   tasks:
+  - include_tasks: myfile.yml
   - name: i want to install webserver on ubuntu
     apt:
       name: apache2
