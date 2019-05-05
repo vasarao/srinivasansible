@@ -9,4 +9,4 @@
 172.31.25.138
 
 [ubuntuhosts:vars]
-ansible_python_interpreter=/usr/bin/python3
+ansible_python_interpreter=/usr/bin/python3.5
