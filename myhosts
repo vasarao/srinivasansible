@@ -1,5 +1,6 @@
 [ubuntuhosts]
 172.31.27.66
+
 [redhathosts]
 172.31.25.138
 
@@ -8,5 +9,3 @@
 172.31.27.66
 172.31.25.138
 
-[ubuntuhosts:vars]
-ansible_python_interpreter=/usr/bin/python3.5
